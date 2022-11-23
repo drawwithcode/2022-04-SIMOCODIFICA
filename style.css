@@ -1,8 +1,19 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
 }
 
 canvas {
   display: block;
+}
+
+@font-face {
+  font-family: FT88;
+  src: url("./assets/FT88-Regular.ttf");
 }
