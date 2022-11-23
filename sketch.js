@@ -27,7 +27,7 @@ function setup() {
 
 // this is the function that allows the sketch change
 function changePage() {
-  window.open("Drawing.html", "_self");
+  window.open("drawing.html", "_self");
 }
 
 function draw() {
